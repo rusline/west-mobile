@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome to ...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<body>
+<div class="main-container pack-page">
+<!-- Content -->
+<div class="content">
+
+	<div class="pack-box1">
+		<div class="back2"><a href="#"><img src="images/back2.png" alt="#" /></a></div>
+		<div class="title"><img src="images/west_s_title.png" alt="#" /></div>
+		<div class="pack"><img src="images/west_pack_s.png" alt="#" /></div>
+		<div class="dot clearfix">
+			<a href="#" class="pack1 act"></a>
+			<a href="#" class="pack2"></a>
+			<a href="#" class="pack3"></a>
+		</div>
+		<h2>Летящие облака, как напоминание<br />о непрекращающемся движении… на запад!</h2>
+		<p>Каждый день мы следуем за солнцем, чтобы собрать всё тепло и свет его лучей. Так мы придаём неповторимый вкус новой табачной мешке. А в каждой сигарете есть особый угольный фильтр, который дополнительно улучшает вкус табаков Берлей. Мы хотим провести и вас по дороге приключений и свежих эмоций!</p>
+	</div>
+
+	<div class="pack-box2">
+		<div class="back2"><a href="#"><img src="images/back2.png" alt="#" /></a></div>
+		<div class="title"><img src="images/west_b_title.png" alt="#" /></div>
+		<div class="pack"><img src="images/west_pack_b.png" alt="#" /></div>
+		<div class="dot clearfix">
+			<a href="#" class="pack1"></a>
+			<a href="#" class="pack2 act"></a>
+			<a href="#" class="pack3"></a>
+		</div>
+		<h2>Синева неба, которую хочется<br />взять с собой в путешествие… на запад!</h2>
+		<p>Каждый день мы следуем за солнцем, чтобы собрать всё тепло и свет его лучей. Так мы придаём неповторимый вкус новой табачной мешке. А в каждой сигарете есть особый угольный фильтр, который дополнительно улучшает вкус табаков Берлей. Мы хотим провести и вас по дороге приключений и свежих эмоций!</p>
+	</div>
+
+	<div class="pack-box3">
+		<div class="back2"><a href="#"><img src="images/back2.png" alt="#" /></a></div>
+		<div class="title"><img src="images/west_r_title.png" alt="#" /></div>
+		<div class="pack"><img src="images/west_pack_r.png" alt="#" /></div>
+		<div class="dot clearfix">
+			<a href="#" class="pack1"></a>
+			<a href="#" class="pack2"></a>
+			<a href="#" class="pack3 act"></a>
+		</div>
+		<h2>Воодушевляет, как закат на горизонте -<br />отбросьте все дела и отправляйтесь <br />  за приключениями… на запад!</h2>
+		<p>Каждый день мы следуем за солнцем, чтобы собрать всё тепло и свет его лучей. Так мы придаём неповторимый вкус новой табачной мешке. А в каждой сигарете есть особый угольный фильтр, который дополнительно улучшает вкус табаков Берлей. Мы хотим провести и вас по дороге приключений и свежих эмоций!</p>
+	</div>
+
+</div>
+</div>
+<!-- /Content -->
+
+<script type="text/javascript" src="js/jquery.backstretch.js"></script>
+<script type="text/javascript">
+
+	$.backstretch("images/pack_bg1.jpg");
+
+   $(".pack1").click(function(e) {
+		 $(".pack-box1").show();
+		 $(".pack-box2").hide();
+		 $(".pack-box3").hide();
+		e.preventDefault();
+		$.backstretch("images/pack_bg1.jpg");
+	});
+
+	$(".pack2").click(function(e) {
+		$(".pack-box2").show();
+		$(".pack-box1").hide();
+		$(".pack-box3").hide();
+		e.preventDefault();
+		$.backstretch("images/pack_bg2.jpg");
+	});
+
+	$(".pack3").click(function(e) {
+		$(".pack-box3").show();
+		$(".pack-box1").hide();
+		$(".pack-box2").hide();
+		e.preventDefault();
+		$.backstretch("images/pack_bg3.jpg");
+	});
+
+</script>
+
+</div>
+</body>
+</html>
