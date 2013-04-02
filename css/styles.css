@@ -86,12 +86,6 @@ font-weight: normal; font-style: normal;}
 .reg-short .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:15px 0 20px 0;text-shadow:0 -1px 1px #fff;text-align:center}
 .reg-short .lines{clear:both;padding:0 0 20px 0px;text-align:center}
 .reg-short .lines input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
-.reg-short .soc{padding:10px;text-align:center;color:#000;font-size:11px;font-family: 'Conv_DinCyBdA'}
-.reg-short .soc span{float:left;margin:6px 5px 0 80px}
-.reg-short .soc a{float:left;width:28px;height:29px;float:left}
-.reg-short .soc a.vk{background:url(../images/sprites.png) -56px -172px no-repeat;}
-.reg-short .soc a.ok{background:url(../images/sprites.png) -28px -172px no-repeat;}
-.reg-short .soc a.fb{background:url(../images/sprites.png) 0 -172px no-repeat;}
 
 .reg-short .check-box{padding:5px 0 10px 50px;clear:both}
 .reg-short .check-box .checkboxclass{position: absolute;overflow: hidden;left: -9999px;}
@@ -113,6 +107,96 @@ font-weight: normal; font-style: normal;}
 .reg-short .pass2{position:relative}
 .reg-short .pass1 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
 .reg-short .pass2 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
+
+
+.reg-box{background:url(../images/reg02.png) top center;width:576px;margin:30px auto;position:relative;border:2px solid #a2a2a2;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.reg-box .close{position:absolute;top:20px;right:17px}
+.reg-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:15px 0 20px 0;text-shadow:0 -1px 1px #fff;text-align:center}
+.reg-box .lines{clear:both;padding:0 0 20px 0px;text-align:center}
+.reg-box .lines input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
+
+.reg-box .birth{clear:both;padding:0 0 20px 30px}
+.reg-box .birth span{float:left;width:110px;color:#000;font-size:1em;padding-top:10px}
+.reg-box .birth input{background:url(../images/in04.png) no-repeat;width:128px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0;float:left;margin-left:7px}
+
+.reg-box .phone{clear:both;padding:0 0 20px 30px}
+.reg-box .phone span{float:left;width:40px;color:#000;font-size:1.4em;padding-top:20px}
+.reg-box .phone input{background:url(../images/in05.png) no-repeat;width:470px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0;float:left;margin-left:7px}
+
+.reg-box .check-box{padding:5px 0 10px 50px;clear:both}
+.reg-box .check-box .checkboxclass{position: absolute;overflow: hidden;left: -9999px;}
+.reg-box .check-box .checkboxlabelclass{background: url(../images/check.png) 0 0 no-repeat;padding:3px 0 10px 45px;margin:0;display: block;font-family: 'Conv_DINPro-Light';font-size:1em;color:#000}
+.reg-box .check-box .labelselected{background:url(../images/check.png) 0 -118px no-repeat}
+
+.reg-box .captcha{padding:20px 0 0 0px;clear:both}
+.reg-box .captcha div{float:left;width:290px;text-align:center}
+.reg-box .captcha div img{}
+.reg-box .captcha div a{display:block;color:#c7151c;font-size:1em;font-family:'Conv_DINPro-Medium';text-decoration:none}
+.reg-box .captcha input{float:left;background:url(../images/in03.png) no-repeat;width:257px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0;margin-top:-8px}
+
+.reg-box .reg-b {clear:both;padding:35px 0 25px 0;text-align:center}
+.reg-box .reg-b span a{background:url(../images/btn_bg.png) repeat-x;height:82px;line-height:82px;font-family: 'Conv_DINPro-Medium';color:#000;font-size:1.6em;text-decoration:none;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-box-shadow: 0 0 5px #999; -webkit-box-shadow:  0 0 5px #999; box-shadow: 0 0 5px #999;margin-bottom:20px;width:516px;margin:0 auto;display:block}
+.reg-box .reg-b p{padding:10px 0 0 0;color:#c7151c;font-size:1em;font-family:'Conv_DINPro-Medium';text-transform:uppercase}
+.reg-box .reg-b p a{color:#c7151c;font-family:'Conv_DINPro-Medium';}
+
+.reg-box .pass1{position:relative}
+.reg-box .pass2{position:relative}
+.reg-box .pass1 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
+.reg-box .pass2 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
+
+.enter-box{background:url(../images/enter_bg.png) no-repeat;width:580px;height:462px;margin:30px auto;position:relative}
+.enter-box .close{position:absolute;top:20px;right:17px}
+.enter-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:15px 0 20px 0;text-shadow:0 -1px 1px #fff;text-align:center}
+.enter-box .lines{clear:both;padding:0 0 20px 0px;text-align:center}
+.enter-box .lines input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
+
+.enter-box .check-box{padding:5px 0 10px 50px;clear:both}
+.enter-box .check-box .checkboxclass{position: absolute;overflow: hidden;left: -9999px;}
+.enter-box .check-box .checkboxlabelclass{background: url(../images/check.png) 0 0 no-repeat;padding:0 0 10px 45px;margin:0;display: block;font-family: 'Conv_DINPro-Light';font-size:1.2em;color:#000}
+.enter-box .check-box .labelselected{background:url(../images/check.png) 0 -118px no-repeat}
+
+.enter-box .reg-b {clear:both;padding:15px 0 0 0;text-align:center}
+.enter-box .reg-b span a{background:url(../images/btn_bg.png) repeat-x;height:82px;line-height:82px;font-family: 'Conv_DINPro-Medium';color:#000;font-size:1.6em;text-decoration:none;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-box-shadow: 0 0 5px #999; -webkit-box-shadow:  0 0 5px #999; box-shadow: 0 0 5px #999;margin-bottom:20px;width:516px;margin:0 auto;display:block}
+.enter-box .reg-b p{padding:10px 0 0 0;color:#c7151c;font-size:1em;font-family:'Conv_DINPro-Medium';text-transform:uppercase}
+.enter-box .reg-b p a{color:#c7151c;font-family:'Conv_DINPro-Medium';}
+
+.enter-box .pass1{position:relative}
+.enter-box .pass1 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
+
+.back{position:absolute;top:25px;left:25px}
+
+.recovery-box{background:url(../images/recovery_bg.png) no-repeat;width:580px;height:295px;margin:30px auto;position:relative}
+.recovery-box .close{position:absolute;top:20px;right:17px}
+.recovery-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:15px 0 20px 0;text-shadow:0 -1px 1px #fff;text-align:center}
+.recovery-box .lines{clear:both;padding:0 0 20px 0px;text-align:center}
+.recovery-box .lines input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
+
+.recovery-box .reg-b {clear:both;padding:10px 0 0 0;text-align:center}
+.recovery-box .reg-b span a{background:url(../images/btn_bg.png) repeat-x;height:82px;line-height:82px;font-family: 'Conv_DINPro-Medium';color:#000;font-size:1.6em;text-decoration:none;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-box-shadow: 0 0 5px #999; -webkit-box-shadow:  0 0 5px #999; box-shadow: 0 0 5px #999;margin-bottom:20px;width:516px;margin:0 auto;display:block}
+
+.lk-box{background:url(../images/reg02.png) top center;width:576px;margin:30px auto;position:relative;border:2px solid #a2a2a2;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;}
+.lk-box .close{position:absolute;top:20px;right:17px}
+.lk-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:15px 0 20px 0;text-shadow:0 -1px 1px #fff;text-align:center}
+.lk-box .lines{clear:both;padding:0 0 20px 0px;text-align:center}
+.lk-box .lines input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
+
+.lk-box .top{background:url(../images/lk_top.png) repeat-x;height:124px;padding:20px 30px 0 30px;margin-bottom:15px;position:relative}
+.lk-box .top img{float:left;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;margin:0 15px 15px 0}
+.lk-box .top div{float:right;color:#787878;font-size:1.1em;width:70px;text-align:center;text-shadow:0 -2px 2px #fff}
+.lk-box .top div span{font-size:2.2em;display:block;font-weight:bold}
+.lk-box h2{font-family:'Conv_DINPro-Medium';color:#ca1512;text-shadow: 1px -1px #ddd;padding:10px 100px 0 0}
+
+.lk-box .birth{clear:both;padding:0 0 20px 30px}
+.lk-box .birth span{float:left;width:110px;color:#000;font-size:1em;padding-top:10px}
+.lk-box .birth input{background:url(../images/in04.png) no-repeat;width:128px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0;float:left;margin-left:7px}
+
+.lk-box .reg-b {clear:both;padding:5px 0 25px 0;text-align:center}
+.lk-box .reg-b span a{background:url(../images/btn_bg.png) repeat-x;height:82px;line-height:82px;font-family: 'Conv_DINPro-Medium';color:#000;font-size:1.6em;text-decoration:none;text-align:center;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-moz-box-shadow: 0 0 5px #999; -webkit-box-shadow:  0 0 5px #999; box-shadow: 0 0 5px #999;margin-bottom:20px;width:516px;margin:0 auto;display:block}
+
+.lk-box .pass1{position:relative}
+.lk-box .pass2{position:relative}
+.lk-box .pass1 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
+.lk-box .pass2 label{position: absolute;top:-7px;left:0;width:520px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;}
 
 
 .content{}
