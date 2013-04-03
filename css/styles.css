@@ -46,7 +46,7 @@ font-weight: normal; font-style: normal;}
 .rules-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:7px 0 15px 0;text-shadow:0 -1px 1px #fff;text-align:center}
 .rules-box .close-rules{position:absolute;top:20px;right:17px}
 
-.scroll-pane{width:530px !important;margin:0 auto;height:550px}
+.scroll-pane{width:100%;margin:0 auto;height:550px}
 .scroll-pane p{padding:10px;color:#5c5c5c;font-size:0.9em;}
 .scroll-pane p b{display:block;font-size:1.1em}
 .jspContainer{overflow: hidden;position: relative;}
@@ -257,18 +257,12 @@ font-weight: normal; font-style: normal;}
 .marka-box .select-box{float:left;margin:0 20px 20px 0}
 .marka-box .select-box input{background:url(../images/in02.png) no-repeat;width:520px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
 
-.b-core-ui-select {position: relative;cursor: pointer;width:520px;height:70px;background:url(../images/select01.png) top no-repeat;}
-.b-core-ui-select__select {position: static;width:520px;height:70px;background:url(../images/select01.png) top no-repeat;line-height:70px;font-size:1.4em}
-.b-core-ui-select__value {display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding:0 80px 0 20px;height:70px;line-height:70px;font-size:1.6em}
-.b-core-ui-select__select_state_hide {height: 1px !important;margin: 0;padding: 0;position: absolute;width: 1px !important;text-indent: -9999px;overflow: hidden;opacity: 0;z-index: -1;filter: alpha(opacity = 0);}
-.b-core-ui-select__button {position: absolute;right: 15px;top: 10px;display: block;width: 0;height: 0;content: "";margin-top: 8px;margin-left: 2px;}
-.b-core-ui-select__dropdown {display: none;position: absolute;top: 0;color: #000;border: 1px solid #ccc;border-radius: 0 0 10px 10px;background:#fff;border-top:none}
-.b-core-ui-select__dropdown.hide {display: none;}
-.b-core-ui-select__dropdown.show {display: block;}
-.b-core-ui-select__dropdown__wrap {max-height: 200px;overflow: auto;outline: none;}
-.b-core-ui-select__dropdown__list {overflow: hidden;margin: 0!important;padding:0}
-.b-core-ui-select__dropdown__item {list-style-type: none;cursor: pointer;padding:0 0 0 20px;height:70px;line-height:70px;font-size:1.6em}
-.b-core-ui-select__dropdown__item:HOVER {background: #CCC;}
+
+select.styled { position: relative; width:520px; opacity: 0; filter: alpha(opacity=0); z-index: 5; }
+.select {position: absolute;width:420px;height:70px;padding:0 80px 0 20px;color: #000;	font-size:1.6em;line-height:70px;background:url(../images/select01.png) top no-repeat;overflow:hidden;}
+.marka-box .select-box select {line-height:70px;font-size:1.6em;height:70px}
+.marka-box .select-box select option{padding:15px 20px}
+
 
 }
 
@@ -295,7 +289,7 @@ font-weight: normal; font-style: normal;}
 .rules-box .title{color:#000;font-size:1.6em;text-transform:uppercase;font-family: 'Conv_DINPro-Medium';padding:7px 0 15px 0;text-shadow:0 -1px 1px #fff;text-align:center}
 .rules-box .close-rules{position:absolute;top:20px;right:17px}
 
-.scroll-pane{width:830px !important;margin:0 auto;height:410px}
+.scroll-pane{width:100%;margin:0 auto;height:410px}
 .scroll-pane p{padding:10px;color:#5c5c5c;font-size:0.9em;}
 .scroll-pane p b{display:block;font-size:1.1em}
 .jspContainer{overflow: hidden;position: relative;}
@@ -506,27 +500,12 @@ font-weight: normal; font-style: normal;}
 .marka-box .select-box{float:left;margin:0 20px 20px 0}
 .marka-box .select-box input{background:url(../images/in06.png) no-repeat;width:409px;height:70px;line-height:70px;color:#a5a5a5;font-size:1.2em;font-family:'Conv_DINPro-Medium';text-align:center;border:0}
 
-.b-core-ui-select {position: relative;cursor: pointer;width:410px;height:70px;background:url(../images/select02.png) top no-repeat;}
-.b-core-ui-select__select {position: static;width:410px;height:70px;background:url(../images/select02.png) top no-repeat;line-height:70px;font-size:1.4em}
-.b-core-ui-select__value {display: block;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding:0 80px 0 20px;height:70px;line-height:70px;font-size:1.6em}
-.b-core-ui-select__select_state_hide {height: 1px !important;margin: 0;padding: 0;position: absolute;width: 1px !important;text-indent: -9999px;overflow: hidden;opacity: 0;z-index: -1;filter: alpha(opacity = 0);}
-.b-core-ui-select__button {position: absolute;right: 15px;top: 10px;display: block;width: 0;height: 0;content: "";margin-top: 8px;margin-left: 2px;}
-.b-core-ui-select__dropdown {display: none;position: absolute;top: 0;color: #000;border: 1px solid #ccc;border-radius: 0 0 10px 10px;background:#fff;border-top:none}
-.b-core-ui-select__dropdown.hide {display: none;}
-.b-core-ui-select__dropdown.show {display: block;}
-.b-core-ui-select__dropdown__wrap {max-height: 200px;overflow: auto;outline: none;}
-.b-core-ui-select__dropdown__list {overflow: hidden;margin: 0!important;padding:0}
-.b-core-ui-select__dropdown__item {list-style-type: none;cursor: pointer;padding:0 0 0 20px;height:70px;line-height:70px;font-size:1.6em}
-.b-core-ui-select__dropdown__item:HOVER {background: #CCC;}
-
+select.styled { position: relative; width:409px; opacity: 0; filter: alpha(opacity=0); z-index: 5; }
+.select {position: absolute;width: 309px;height:70px;padding:0 80px 0 20px;color: #000;	font-size:1.6em;line-height:70px;background:url(../images/select02.png) top no-repeat;overflow:hidden;}
+.marka-box .select-box select {line-height:70px;font-size:1.6em;height:70px}
+.marka-box .select-box select option{padding:15px 20px}
 	
 }
-
-select {
-    display: block;
-    width: 100%;
-} 
-
 
 
 /* Content */

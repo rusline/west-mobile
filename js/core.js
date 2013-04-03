@@ -78,7 +78,7 @@
 	 
 	 
 	 $('.rules-box').css({'display':'block', 'z-index': '10'});
-			jQuery('.scroll-pane').jScrollPane();
+			jQuery('.scroll-pane').jScrollPane({autoReinitialise: true});
 			e.preventDefault();
 	
 	$('.close-rules').click(function(e){
@@ -89,4 +89,5 @@
 	
 
 })
+
 

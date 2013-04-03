@@ -7,24 +7,7 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/core.js"></script>
-
-<script src="js/jquery.core-ui-select.js"></script>
-<script>
-    $(window).load(function () {
-        $('#optiongroup').coreUISelect({
-            jScrollPane : {
-                verticalDragMinHeight: 20,
-                verticalDragMaxHeight: 20,
-                showArrows : true
-            }
-        });
-        $('.select-box select').coreUISelect();
-
-        function addCoreUISelectListener(select, event){
-            console.log(select, event);
-        }
-    });
-</script>
+<script src="js/nice.js"></script>
 
 </head>
 <body>
@@ -58,7 +41,7 @@
 	<div class="marka-box clearfix">
 		<p>Какую марку сигарет Вы курите чаще всего в настоящее время?</p>
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="marka1" name="marka1">
+		 <select class="styled" name="marka1" >
 				<option value="Марка">Марка</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -75,7 +58,7 @@
 		<div class="select-box"><input type="text" value="Другая" /></div>
 		
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="krepost1" name="krepost1">
+		 <select class="styled" name="krepost1">
 				<option value="Крепость">Крепость</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -90,8 +73,8 @@
 		</div>
 		
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="format1" name="format1">
-				<option value="Формат">Формат</option>
+		 <select class="styled" name="format1">
+				<option value="Формат" >Формат</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
 				<option value="3">3</option>
@@ -109,7 +92,7 @@
 	<div class="marka-box clearfix">
 		<p>Кроме Вашей основной марки, какую еще марку сигарет Вы покупаете время от времени?</p>
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="marka2" name="marka2">
+		 <select class="styled" name="marka2">
 				<option value="Марка">Марка</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -126,7 +109,7 @@
 		<div class="select-box"><input type="text" value="Другая" /></div>
 		
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="krepost2" name="krepost2">
+		 <select class="styled" name="krepost2">
 				<option value="Крепость">Крепость</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -141,7 +124,7 @@
 		</div>
 		
 		<div class="select-box">
-		 <select class="b-core-ui-select__select" id="format2" name="format2">
+		 <select class="styled" name="format2">
 				<option value="Формат">Формат</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
